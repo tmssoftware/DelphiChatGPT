@@ -1,8 +1,8 @@
-program DelphiChatGTP;
+program DelphiChatGPT;
 
 uses
   Vcl.Forms,
-  UChatGTP in 'UChatGTP.pas' {Form1};
+  UChatGPT in 'UChatGPT.pas' {Form1};
 
 {$R *.res}
 
