@@ -1,4 +1,4 @@
-unit UChatGTP;
+unit UChatGPT;
 
 interface
 
@@ -32,7 +32,7 @@ implementation
 uses
   System.JSON, VCL.TMSFNCCloudBase;
 
-function AskChatGTP(AQuestion: string): string;
+function AskChatGPT(AQuestion: string): string;
 var
   LCb: TTMSFNCCloudBase;
   LPostdata: string;
@@ -54,7 +54,7 @@ begin
 
   try
     // Use JSON for the REST API calls and set API KEY via Authorization header
-    LCb.Request.AddHeader('Authorization','Bearer ' + CHATGTP_APIKEY);
+    LCb.Request.AddHeader('Authorization','Bearer ' + CHATGPT_APIKEY);
     LCb.Request.AddHeader('Content-Type','application/json');
 
     // Select HTTPS POST method, set POST data and specify endpoint URL
@@ -88,7 +88,7 @@ end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  Memo1.Lines.Text := AskChatGTP(Edit1.Text);
+  Memo1.Lines.Text := AskChatGPT(Edit1.Text);
 end;
 
 end.
