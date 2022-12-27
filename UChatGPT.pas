@@ -7,7 +7,6 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
   VCL.TMSFNCCustomComponent;
 
-
 type
   TForm1 = class(TForm)
     Button1: TButton;
