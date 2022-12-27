@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Delphi ChatGTP interface'
+  Caption = 'Delphi ChatGPT interface'
   ClientHeight = 420
   ClientWidth = 519
   Color = clBtnFace
