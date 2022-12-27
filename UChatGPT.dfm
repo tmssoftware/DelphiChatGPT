@@ -21,7 +21,7 @@ object Form1: TForm1
     Top = 43
     Width = 129
     Height = 25
-    Caption = 'Ask the machine'
+    Caption = 'Ask the machine '
     TabOrder = 0
     OnClick = Button1Click
   end
